@@ -1,0 +1,15 @@
+<!--pages/bottom_menu/bottom_menu.wxml-->
+<view class='bottomrow'>
+  <view class='bottomtab' bindtap="go_index">
+    <image class="icon" src="../../images/icon/home.png"></image>
+    <text class='bottomtabText'>首页</text>
+  </view>
+  <view class='bottomtab' bindtap="go_event">
+    <image class="icon" src="../../images/icon/list.png"></image>
+    <text class='bottomtabText'>活动页面</text>
+  </view>
+  <view class='bottomtab' bindtap="go_mine">
+    <image class="icon" src="../../images/icon/user.png"></image>
+    <text class='bottomtabText'>我的</text>
+  </view>
+</view>

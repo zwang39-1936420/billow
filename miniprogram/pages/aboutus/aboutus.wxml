@@ -1,0 +1,17 @@
+<!--pages/aboutus/aboutus.wxml-->
+
+<view>
+  <image class="aboutus_image" src="../../images/aboutus.png"></image>
+</view>
+
+<scroll-view class='scbg' scroll-y='true'>
+  <view class="content">
+    <view class="title">关于我们</view>
+    <view class="paragraph">Microbillow 中文译为“浪社区”（或昵称为小浪花社区）起源于西雅图浪群 -- 全西雅图科技圈最活跃500人大群。浪群成立于2018年6月，宗旨是Work hard, play harder! 我们的小伙伴来自西雅图当地各大科技公司和独角兽，包括微软、亚马逊、谷歌、Facebook、Airbnb、Uber等等。浪群是一个非常团结正能量的团体，我们群里的500名精英是通过轮轮筛选留下的最靠谱的小伙伴们。</view>
+    <view class="paragraph">浪社区的简历是为了更好地服务大西雅图地区的精英人士。我们注重的是质，不是量。浪社区包括八个不通的版块：户外、投资、美食、生活助手、个人提升、感情交流、个人爱好和才艺展示。每一个版块都出自于小伙伴们的强烈需求。</view>
+    <view class="paragraph">在西雅图有一个新词汇叫“朗精” -- 浪群精英！Microbillow的建立是希望更多的“浪精”加入我们这个热情有爱❤的大家庭。</view>
+    <view class="btn">注册</view>
+  </view>
+</scroll-view>
+
+<include src="/pages/bottom_menu/bottom_menu" />

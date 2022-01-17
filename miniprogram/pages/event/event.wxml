@@ -1,0 +1,30 @@
+<!--pages/event/event.wxml-->
+<view class="hot_activites">
+  <view class="label">活动榜</view>
+  <scroll-view class='scbg' scroll-y='true'>
+  <block wx:for="{{list}}" wx:for-item="itemName" wx:for-index="id">
+    <view class='box'>
+      <view class='firstblock'>
+        <image class='event_img' src='{{itemName.event_img}}'></image>
+        <view class='person'>
+          <view class='name'>
+            <text class='showname'>{{itemName.username}}</text>
+          </view>
+          <view class='tel'>
+            <text class='showtime'>{{itemName.send_timestamp}}</text>
+          </view>
+        </view>
+      </view>
+      <view class='secondblock'>
+        <text class='content'>{{itemName.content}}</text>
+      </view>
+      <view class='thirdblock'>
+        <view class="enter">活动详情</view>
+      </view>
+    </view>
+  </block>
+  </scroll-view>
+</view>
+
+
+<include src="/pages/bottom_menu/bottom_menu" />

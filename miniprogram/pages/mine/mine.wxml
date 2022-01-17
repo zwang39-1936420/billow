@@ -1,0 +1,4 @@
+<!--pages/mine/mine.wxml-->
+
+
+<include src="/pages/bottom_menu/bottom_menu" />

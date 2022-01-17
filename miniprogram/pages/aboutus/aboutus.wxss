@@ -1,0 +1,37 @@
+/* pages/aboutus/aboutus.wxss */
+@import "/pages/bottom_menu/bottom_menu";
+
+page {
+  background-color: #f8f8f8;
+}
+
+.aboutus_image {
+  width: 100%;
+}
+
+.content {
+  background-color: white;
+  margin-top: 20rpx;
+  margin-bottom: 140rpx;
+  padding: 30rpx;
+  font-size: 30rpx;
+}
+
+.title {
+  font-weight: bold;
+
+}
+
+.paragraph {
+  margin: 20rpx 0;
+}
+
+.content .btn {
+  margin: auto;
+  width: 150rpx;
+  text-align: center;
+  border-radius: 30rpx;
+  background-color: aquamarine;
+  padding: 15rpx 0;
+  color: white;
+}

@@ -1,0 +1,165 @@
+/* pages/billow/billow.wxss */
+@import "/pages/bottom_menu/bottom_menu";
+
+.body {
+  background-color: white;
+}
+
+.card {
+  position: relative;
+}
+
+.bg {
+  width: 100%;
+}
+
+.info {
+  position: absolute;
+  left: 30%;
+  top: 40%;
+  color: white;
+  text-align: center;
+  font-size: 45rpx;
+}
+
+.name {
+  margin-top: 40rpx;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.about_btn {
+  margin-top: 80rpx;
+  padding: 20rpx 0rpx;
+  font-size: 40rpx;
+  background-color: white;
+  color: grey;
+  border-radius: 45rpx;
+}
+
+.activities {
+  margin: 50rpx 0rpx;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-around;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  text-align: center;
+  align-items: center;
+}
+
+.subact {
+  width: 300rpx;
+  height: 300rpx;
+  line-height: 300rpx;
+  background-color: aquamarine;
+  border-radius: 40rpx;
+}
+
+.hot_activities {
+  background-color: #ddd;
+}
+
+.label {
+  padding: 40rpx 20rpx 20rpx 20rpx;
+  background-color: #ddd;
+}
+
+.scbg{
+  background-color: #ddd;
+  width: 100%;
+  height: 91%;
+  margin-bottom: 130rpx;
+}
+
+.box{
+  width: 100%;
+  background-color: white;
+  margin-bottom: 20rpx;
+  /* border: 1px solid red; */
+  border-radius: 20rpx;
+  box-shadow: 5rpx 5rpx 15rpx grey;
+}
+
+.firstblock{
+  height: 150rpx;
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.event_img{
+  width: 130rpx;
+  height: 130rpx;
+}
+
+.person{
+  width: 75%;
+  height: 130rpx;
+  margin-left: 30rpx;
+  margin-top: 10rpx;
+}
+
+.name{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10rpx;
+  font-size: 40rpx;
+  flex-direction: row;
+}
+
+.tel{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 35rpx;
+  flex-direction: row;
+}
+
+.showname{
+  font-size: 34rpx;
+  color: #3F51B5;
+  font-family: PingFangSC-regular;
+  font-weight: bold;
+}
+
+.showtime{
+  font-size: 25rpx;
+  color: #5E5D5D;
+  font-family: PingFangSC-regular;
+}
+
+.secondblock{
+  margin-top: 15rpx;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-bottom: 20rpx;
+}
+
+.content{
+  font-size: 29rpx;
+  color: #101010;
+  word-break: break-all;
+}
+
+.thirdblock{
+  height: 100rpx;
+  margin-left: 4%;
+  margin-right: 4%;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.enter{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  width: 200rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  border: 1rpx solid black;
+  border-radius: 25rpx;
+}
