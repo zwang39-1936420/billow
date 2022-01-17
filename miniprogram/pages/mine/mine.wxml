@@ -1,4 +1,4 @@
 <!--pages/mine/mine.wxml-->
-
+<view>hello</view>
 
 <include src="/pages/bottom_menu/bottom_menu" />
